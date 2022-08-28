@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "external_mystics:block/twist_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "external_mystics:block/twist_log"
+    },
+    "axis=z": {
+      "model": "external_mystics:block/twist_log_horizontal",
+      "x": 90
+    }
+  }
+}

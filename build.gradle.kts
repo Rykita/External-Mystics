@@ -36,6 +36,10 @@ repositories {
         name = "owo-lib"
         setUrl("https://maven.wispforest.io")
     }
+
+    maven {
+        setUrl("https://jitpack.io")
+    }
 }
 
 dependencies {
@@ -61,6 +65,9 @@ dependencies {
     val owoVersion: String by project
     modImplementation("io.wispforest", "owo-lib", owoVersion)
     include ("io.wispforest" ,"owo-sentinel", owoVersion)
+
+    val bcLibVersion: String by project
+    modImplementation("com.github.quiqueck", "BCLib", bcLibVersion)
 }
 
 tasks {

@@ -1,5 +1,7 @@
 {
   "block.external_mystics.twist_planks": "Twist Planks",
+  "block.external_mystics.twist_log": "Twist Log",
+  "block.external_mystics.stripped_twist_log": "Stripped Twist Log",
 
   "itemGroup.external_mystics.main": "External Mystics",
   "itemGroup.external_mystics.main.tab.blocks": "Blocks",

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "external_mystics:blocks/twisting_aqua_woods/twist_log_top",
+    "side": "external_mystics:blocks/twisting_aqua_woods/twist_log"
+  }
+}

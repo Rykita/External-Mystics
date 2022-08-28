@@ -29,6 +29,10 @@
     "fabric": "*",
     "fabric-language-kotlin": ">=1.8.2+kotlin.1.7.10",
     "minecraft": "1.19.1",
+    "bclib": "2.1.x",
     "java": ">=17"
+  },
+  "breaks": {
+    "bclib": "<2.1.0"
   }
 }

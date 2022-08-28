@@ -12,10 +12,10 @@ import net.minecraft.util.registry.Registry
 
 class EMItemGroup(id: Identifier?) : OwoItemGroup(id) {
     public override fun setup() {
-        this.addTab(Icon.of(Items.ACACIA_BOAT), "items", TagKey.of(Registry.ITEM_KEY, ExternalMystics.identify("items")))
-        this.addTab(Icon.of(Items.MANGROVE_BOAT), "blocks", TagKey.of(Registry.ITEM_KEY, ExternalMystics.identify("blocks")))
-        this.addTab(Icon.of(Items.OAK_BOAT), "tools", TagKey.of(Registry.ITEM_KEY, ExternalMystics.identify("tools")))
-        this.addTab(Icon.of(Items.BIRCH_BOAT), "misc", TagKey.of(Registry.ITEM_KEY, ExternalMystics.identify("misc")))
+        this.addTab(Icon.of(ItemRegistry.ITEMS_ICON), "items", TagKey.of(Registry.ITEM_KEY, ExternalMystics.identify("items")))
+        this.addTab(Icon.of(ItemRegistry.BLOCK_ICON), "blocks", TagKey.of(Registry.ITEM_KEY, ExternalMystics.identify("blocks")))
+        this.addTab(Icon.of(ItemRegistry.TOOLS_ICON), "tools", TagKey.of(Registry.ITEM_KEY, ExternalMystics.identify("tools")))
+        this.addTab(Icon.of(ItemRegistry.MISC_ICON), "misc", TagKey.of(Registry.ITEM_KEY, ExternalMystics.identify("misc")))
 
         this.addButton(ItemGroupButton.github("https://github.com/Noaaan/MythicMetals/issues"));
         this.addButton(ItemGroupButton.curseforge("https://www.curseforge.com/minecraft/mc-mods/mythicmetals"));
@@ -24,6 +24,6 @@ class EMItemGroup(id: Identifier?) : OwoItemGroup(id) {
     }
 
     override fun createIcon(): ItemStack {
-        return ItemStack(Items.AMETHYST_SHARD)
+        return ItemStack(ItemRegistry.TAB_ICON)
     }
 }
