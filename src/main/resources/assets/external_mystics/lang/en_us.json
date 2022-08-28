@@ -1,0 +1,10 @@
+{
+  "block.external_mystics.twist_planks": "Twist Planks",
+
+  "itemGroup.external_mystics.main": "External Mystics",
+  "itemGroup.external_mystics.main.tab.blocks": "Blocks",
+  "itemGroup.external_mystics.main.tab.items": "Items",
+  "itemGroup.external_mystics.main.tab.tools": "Tools",
+  "itemGroup.external_mystics.main.tab.misc": "Miscellaneous"
+
+}
